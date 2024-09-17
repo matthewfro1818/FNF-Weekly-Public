@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - uses: krdlab/setup-haxe@master
         with:
@@ -65,7 +65,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - uses: krdlab/setup-haxe@master
         with:
@@ -107,7 +107,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - uses: krdlab/setup-haxe@master
         with:
